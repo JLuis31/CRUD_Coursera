@@ -1,0 +1,25 @@
+# Archivos binarios y carpetas de compilación
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos generados automáticamente
+*.exe
+*.dll
+*.pdb
+
+# Archivos de usuario y configuración
+*.user
+*.suo
+*.userosscache
+*.vs/
+
+# Archivos temporales y cache
+*.log
+*.cache
+.vscode/
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store

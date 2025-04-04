@@ -1,0 +1,35 @@
+POST http://localhost:5106/api/Libros
+Content-Type: application/json
+
+{
+    "Titulo": "Cien años de soledad",
+    "Autor": "Gabriel García Márquez",
+    "Genero": "Realismo mágico",
+    "FechaPublicacion": "1967-05-30",
+    "Editorial": "Sudamericana",
+    "Paginas": 471,
+    "Idioma": "Español2"
+}
+### Obtener un usuario por su Id
+GET http://localhost:5106/api/Libros/1
+
+### Obtener todos los libros
+GET http://localhost:5106/api/Libros
+
+### Actualizar un libro
+PATCH  http://localhost:5106/api/Libros/1
+Content-Type: application/json
+
+{
+    "Titulo": "Cien años de soledad",
+    "Autor": "Gabriel García Márquez",
+    "Genero": "Realismo mágico",
+    "FechaPublicacion": "1967-05-30",
+    "Editorial": "Sudamericana",
+    "Paginas": 500,
+    "Idioma": "Ingles"
+}
+
+
+### Eliminar un libro
+DELETE http://localhost:5106/api/Libros/3

@@ -1,0 +1,6 @@
+@CRUD_Coursera_HostAddress = http://localhost:5106
+
+GET {{CRUD_Coursera_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
